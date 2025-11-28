@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GardenWorld</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- Pages CSS -->
+    <link rel="stylesheet" href="CSS/pages.css">
+    <!-- Font-Awesome Bundle -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <Style>
+        /* Video Sections Start */
+        section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 1100px;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .text-content {
+            flex: 1 1 500px;
+        }
+
+        .text-content h2 {
+            color: #054e38;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        .text-content p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        /* Video Sections End */
+    </Style>
+</head>
+<body>    <!-- Navbar Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="Images/12.jpg" alt="Logo" class="avatar">
+                    <span>GardenWorld</span>
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTools" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Tools
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                                <li><a class="dropdown-item" href="Tools.html#working-tools">Working Tools</a></li>
+                                <li><a class="dropdown-item" href="Tools.html#decorative-tools">Decorative Tools</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Tools.html#planting-tools">Pots and Plates</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Chemicals
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Chemicals.html#Fertilizer">Fertilizers</a></li>
+                                <li><a class="dropdown-item" href="Chemicals.html#pesticides">Pesticides</a></li>
+                                <li><a class="dropdown-item" href="Chemicals.html#Seeds">Seeds</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Suggestion.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages
+                                </a> 
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Services.html">Sample Videos</a></li>
+                                    <li><a class="dropdown-item" href="Info.html">Information</a></li>
+                                </ul>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/2.jpg" class="d-block w-100" alt="GardenWorld">
+                <div class="carousel-caption">
+                    <h2>Sample Videos </h2>
+                    <p>Home | Pages | How To Use Tools Sample Videos</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Gardening Maintenance Start -->
+    <section id="rake">
+        <div class="text-content">
+            <h2>How to use Rake </h2>
+            <p>
+                A rake is used for gathering leaves, grass, or debris from the lawn or garden. 
+                It can also be used for leveling and spreading soil, mulch, or compost in a garden bed. To use it, 
+                hold the handle with both hands and gently pull the rake toward you, allowing the teeth to collect debris. 
+                For leveling or aerating the soil, push the rake back and forth with even pressure to break up clumps and distribute materials evenly.
+            </p>
+        </div>
+        <!-- Embed YouTube Video -->
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/How to Use a Leaf Rake  Garden Tool Guides - ehowgarden (720p, h264).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <!-- Gardening Maintenance End -->
+
+    <!-- Professional Gardening Start -->
+    <section id="watering-can">
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Watering Can.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="text-content">
+            <h2>How to use Watering Can</h2>
+            <p>
+                A watering can is used for evenly distributing water over plants, especially in areas that are hard to reach with a hose. 
+                Fill the can with water and hold it by the handle. Gently tilt the can to allow water to flow from the spout, ensuring that the water is spread across the soil around the plant's base. 
+                A long-spouted watering can is ideal for watering plants without disturbing their roots.
+            </p>
+        </div>
+    </section>
+    <!-- Professional Gardening End -->
+
+    <!-- Irrigation Start -->
+    <section id="trowel">
+        <div class="text-content">
+            <h2>How to use Hand Trowel</h2>
+            <p>
+                : A hand trowel is a small, handheld tool used for digging, planting, and transplanting in the garden.
+                 To use it, grip the handle with one hand and the blade with the other, positioning the blade under the soil or around the plant’s root. Push down gently to loosen the soil and scoop or dig the plant out. 
+                It's particularly useful for planting small plants, digging holes, and removing weeds from confined spaces.
+            </p>
+        </div>
+        <!-- Embed YouTube Video -->
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Trowel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <!-- Irrigation End -->
+
+    <!-- Pruning Start -->
+    <section id="gardening-gloves">
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Garden Gloves.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="text-content">
+            <h2>How to use Gardening Gloves</h2>
+            <p>
+                Garden gloves are essential for protecting your hands while handling soil, sharp tools, or thorny plants.
+                 To use them, simply slip your hands into the gloves, ensuring a snug fit around your fingers and wrists. Gloves protect against cuts, splinters, and dirt, as well as help maintain a good grip when using tools, preventing blisters and enhancing comfort during long gardening sessions.
+                Garden gloves are essential for protecting your hands while handling soil, sharp tools, or thorny plants. 
+                To use them, simply slip your hands into the gloves, ensuring a snug fit around your fingers and wrists. Gloves protect against cuts, splinters, and dirt, as well as help maintain a good grip when using tools, preventing blisters and enhancing comfort during long gardening sessions.
+            </p>
+        </div>
+    </section>
+    <!-- Pruning End -->
+
+    <!-- Landscaping Start -->
+    <section id="pruners">
+        <div class="text-content">
+            <h2>How to use Pruners</h2>
+            <p>
+                Pruners, or secateurs, are used for cutting small branches, dead wood, and stems. To use pruners, 
+                hold the tool in one hand with the blade positioned around the branch you want to trim. Squeeze the handles
+                 together to cut through the branch. Make sure the pruners are sharp, 
+                and choose the appropriate size for the branch to avoid damaging the tool or plant.
+            </p>
+        </div>
+        <!-- Video -->
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Pruners.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <!-- Landscaping End -->
+
+    <!--Lighting Installation Start -->
+    <section id="gardening-sheer">
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/sheer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="text-content">
+            <h2>How to use Garden Sheer</h2>
+            <p>
+                Garden shears are used for trimming and shaping bushes, hedges, or small branches.
+                 To use garden shears, grip the handles firmly, and position the blades around the stem or branch you wish to cut. Apply steady pressure to make a clean cut, using the shears' leverage to slice through stems without damaging the plant. 
+                Always clean the shears after use to maintain their sharpness
+            </p>
+        </div>
+    </section>
+
+    <!-- Lighting Installation End -->
+
+       <!-- Landscaping Start -->
+       <section id="wheel-barrow">
+        <div class="text-content">
+            <h2>How to use Wheel Barrow</h2>
+            <p>
+                A wheelbarrow is a versatile tool used for transporting materials such as soil, mulch, plants,
+                 or tools around the garden. To use a wheelbarrow, position it close to the material you wish to move. Grasp the handles firmly, lift the front of the wheelbarrow, and push it forward, using the wheel to bear most of the weight. 
+                Keep your back straight and use your legs to lift to avoid strain.
+            </p>
+        </div>
+        <!-- Video -->
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Wheel Barrow.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <!-- Landscaping End -->
+
+      <!--Lighting Installation Start -->
+      <section id="gardening-hoe">
+        <div class="embed-responsive embed-responsive-16by9" style="flex: 1 1 500px;">
+            <video width="100%" height="auto" controls>
+                <source src="Videos/Garden Hoe.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="text-content">
+            <h2>How to use Gardening Hoe</h2>
+            <p>
+                A garden hoe is used to break up soil, remove weeds, and aerate garden beds. 
+                To use it, grasp the handle firmly and use the blade to chop or scrape across the soil's surface. 
+                The hoe can be used to weed by slicing through the roots of unwanted plants. It's also helpful for loosening compacted soil, allowing better water and air penetration to the roots.
+            </p>
+        </div>
+    </section>
+
+    <!-- Lighting Installation End -->
+
+     <!-- Footer Start -->
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>GardenWorld</h4>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Tools.html">Tools</a></li>
+                        <li><a href="Chemicals.html">Chemicals</a></li>
+                        <li><a href="Suggestion.html">Products</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="Services.html">Sample Videos</a></li>
+                        <li><a href="Info.html">More Information</a></li>
+                        <li><a href="Suggestion.html#ebooks">E-books</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Our Office</h4>
+                    <ul>
+                        <li><a href="https://g.co/kgs/9yoGK6m">📌 123 Street, Karachi, Pakistan</a></li>
+                        <li><a href="tel:01234567890">📞 +012 345 67890</a></li>
+                        <li><a href="https://mail.google.com/mail">📩 info.gardenworld@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Cristiano/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/cristiano/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/cristiano-ronaldo7?trk=ppro_cprof"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- copyright Start -->
+    <div class="copyright-area">
+        &copy; 2025 <strong>GardenWorld</strong>. All rights reserved. | Designed by M.Afeer Khan
+    </div>
+    <!-- copyright End -->
+
+    <!-- Main JS -->
+    <script src="JS/script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

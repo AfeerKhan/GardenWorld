@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GardenWorld</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- Pages CSS -->
+    <link rel="stylesheet" href="CSS/pages.css">
+    <!-- Font-Awesome Bundle -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <style>
+            form {
+                max-width: 500px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+    
+            label {
+                font-size: 1rem;
+                color: #0e6925;
+                display: block;
+                margin-bottom: 8px;
+            }
+    
+            input[type="text"], textarea, select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 1rem;
+            }
+    
+            textarea {
+                resize: vertical;
+            }
+    
+            input[type="submit"], input[type="button"] {
+                padding: 10px 20px;
+                font-size: 1rem;
+                color: #fff;
+                background-color: #0e6925;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+    
+            input[type="submit"]:hover, input[type="button"]:hover {
+                background-color: #0b531d;
+            }
+    
+            a {
+                text-decoration: none;
+            }
+    
+            input[type="button"] {
+                background-color: #a71d2a;
+            }
+    
+            input[type="button"]:hover {
+                background-color: #7e1521;
+            }
+        </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="Images/12.jpg" alt="Logo" class="avatar">
+                    <span>GardenWorld</span>
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTools" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Tools
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                                <li><a class="dropdown-item" href="Tools.html#working-tools">Working Tools</a></li>
+                                <li><a class="dropdown-item" href="Tools.html#decorative-tools">Decorative Tools</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Tools.html#planting-tools">Pots and Plates</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Chemicals
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Chemicals.html#Fertilizer">Fertilizers</a></li>
+                                <li><a class="dropdown-item" href="Chemicals.html#pesticides">Pesticides</a></li>
+                                <li><a class="dropdown-item" href="Chemicals.html#Seeds">Seeds</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Suggestion.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Services.html">Sample Videos</a></li>
+                                <li><a class="dropdown-item" href="Info.html">Information</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/2.jpg" class="d-block w-100" alt="GardenWorld">
+                <div class="carousel-caption">
+                    <h2>Purchase Form</h2>
+                    <p>Home | Products | Purchase Form</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End --><br>
+
+    <h2 style=" text-align: center; color: #0e6925;" >Shipping Information Form</h2>
+
+    <form onsubmit="return validateForm()" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+
+        <label for="phone">Phone Number:</label>
+        <div style="display: flex; gap: 10px;">
+            <select id="countryCode" name="countryCode" style="width: 30%;">
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+91">+91 (India)</option>
+                <option value="+971">+971 (UAE)</option>
+                <option value="+61">+61 (Australia)</option>
+            </select>
+            <input type="text" id="phone" name="phone" placeholder="Enter phone number" style="width: 70%;">
+        </div>
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address"></textarea>
+
+        <label for="ProductName">Product Number:</label>
+        <input type="text" id="ProductName" name="Product">
+
+        <input type="submit" value="Submit">
+        <a href="Products.html"><input type="button" value="Cancel"></a>
+    </form>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>GardenWorld</h4>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Tools.html">Tools</a></li>
+                        <li><a href="Chemicals.html">Chemicals</a></li>
+                        <li><a href="Suggestion.html">Products</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="Services.html">Sample Videos</a></li>
+                        <li><a href="Info.html">More Information</a></li>
+                        <li><a href="Suggestion.html#ebooks">E-books</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Our Office</h4>
+                    <ul>
+                        <li><a href="https://g.co/kgs/9yoGK6m">📌 123 Street, Karachi, Pakistan</a></li>
+                        <li><a href="tel:01234567890">📞 +012 345 67890</a></li>
+                        <li><a href="https://mail.google.com/mail">📩 info.gardenworld@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Cristiano/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/cristiano/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/cristiano-ronaldo7?trk=ppro_cprof"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- copyright Start -->
+    <div class="copyright-area">
+        &copy; 2025 <strong>GardenWorld</strong>. All rights reserved. | Designed by M.Afeer Khan
+    </div>
+    <!-- copyright End -->
+
+    <script>
+        function validateForm() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var phone = document.getElementById("phone").value;
+            var address = document.getElementById("address").value;
+
+            if (firstName == "") {
+                alert("First name must be filled out.");
+                return false;
+            }
+
+            if (lastName == "") {
+                alert("Last name must be filled out.");
+                return false;
+            }
+
+            if (phone == "") {
+                alert("Please enter a valid phone number.");
+                return false;
+            }
+
+            if (address == "") {
+                alert("Shipping address must be filled out.");
+                return false;
+            }
+
+            alert("Form submitted successfully! Your product will be delivered within 72 hours. Thank you so much for purchasing.");
+            return true;
+        }
+    </script>
+
+    <!-- Main JS -->
+    <script src="JS/script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

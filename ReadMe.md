@@ -27,6 +27,15 @@ Check out the fully deployed app:
 
 Explore the techniques, read guides, and get inspired to start your own garden today!
 
+## Project Team
+
+| Role                  | Name                        | GitHub                                      |
+|-----------------------|-----------------------------|---------------------------------------------|
+| Lead Developer        | Muhammad Afeer Khan         | [@AfeerKhan](https://github.com/AfeerKhan)  |
+| Developer & Contributor | Muhammad Affan bin Aamir | (add GitHub if available)                   |
+
+Big thanks to both for bringing this green project to life! 🌿
+
 ## Tech Stack
 
 - **Frontend**: HTML5, CSS3 (with responsive design for mobile and desktop).
@@ -77,7 +86,7 @@ Please adhere to our simple guidelines: Keep content beginner-friendly, cite sou
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (If no LICENSE file exists, feel free to add one!)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
 ## Acknowledgments
 
@@ -88,8 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions, suggestions, or collaborations:  
-- **Developer**: Afeer Khan  
-- **GitHub**: [@AfeerKhan](https://github.com/AfeerKhan)  
+- **Lead**: Afeer Khan - [@AfeerKhan](https://github.com/AfeerKhan)  
 - **Demo Feedback**: Try the live site and share your thoughts!
 
 Happy gardening! 🌱✨
@@ -97,3 +105,4 @@ Happy gardening! 🌱✨
 ---
 
 *Last updated: November 29, 2025*
+

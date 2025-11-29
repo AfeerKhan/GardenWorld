@@ -32,7 +32,7 @@ Explore the techniques, read guides, and get inspired to start your own garden t
 | Role                  | Name                        | GitHub                                      |
 |-----------------------|-----------------------------|---------------------------------------------|
 | Lead Developer        | Muhammad Afeer Khan         | [@AfeerKhan](https://github.com/AfeerKhan)  |
-| Developer & Contributor | Muhammad Affan bin Aamir | (add GitHub if available)                   |
+| Developer & Contributor | Muhammad Affan bin Aamir | [@M. Affan](https://github.com/Afffan16)    |
 
 Big thanks to both for bringing this green project to life! 🌿
 
@@ -105,4 +105,5 @@ Happy gardening! 🌱✨
 ---
 
 *Last updated: November 29, 2025*
+
 

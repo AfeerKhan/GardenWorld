@@ -23,7 +23,7 @@ Key techniques covered include:
 ## Live Demo
 
 Check out the fully deployed app:  
-[https://garden-world-project.vercel.app/main.html](https://garden-world-project.vercel.app/main.html)
+[Garden World](https://garden-world-project.vercel.app/main.html)
 
 Explore the techniques, read guides, and get inspired to start your own garden today!
 
@@ -97,14 +97,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions, suggestions, or collaborations:  
-- **Lead**: Afeer Khan - [@AfeerKhan](https://github.com/AfeerKhan)  
+- **Lead**: Afeer Khan - [Afeer Khan](https://github.com/AfeerKhan)  
 - **Demo Feedback**: Try the live site and share your thoughts!
 
 Happy gardening! 🌱✨
 
 ---
 
-*Last updated: November 29, 2025*
+*Last updated: December 25, 2025*
+
 
 
 

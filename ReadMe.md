@@ -32,7 +32,7 @@ Explore the techniques, read guides, and get inspired to start your own garden t
 | Role                  | Name                        | GitHub                                      |
 |-----------------------|-----------------------------|---------------------------------------------|
 | Lead Developer        | Muhammad Afeer Khan         | [Afeer Khan](https://github.com/AfeerKhan)  |
-| Developer & Contributor | Muhammad Affan bin Aamir | [Affan](https://github.com/Afffan16)    |
+| Developer & Contributor | Abira Aamir | [Abira](https://github.com/abiiraa)    |
 
 Big thanks to both for bringing this green project to life! 🌿
 
